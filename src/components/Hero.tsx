@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { PlayCircle, Send, BadgeCheck } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import me from '../assets/me-removebg-preview.png'
 
 export const Hero: React.FC = () => {
   const { t } = useLanguage();
@@ -104,7 +105,7 @@ export const Hero: React.FC = () => {
         </div>
         <div className="relative mx-auto aspect-square w-80 overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-emerald-500/10 md:w-96">
           <img
-            src="https://d64gsuwffb70l.cloudfront.net/690842e612197ded1e25450c_1762149153164_51820147.webp"
+            src={me}
             alt="Portrait"
             className="h-full w-full object-cover"
           />

@@ -2,6 +2,7 @@ import React from 'react';
 import { Send } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { aboutData } from '../data/aboutData';
+import me from '../assets/me-removebg-preview.png'
 
 export const About: React.FC = () => {
   const { language } = useLanguage();
@@ -17,7 +18,7 @@ export const About: React.FC = () => {
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
           <div className="relative mx-auto aspect-square w-72 overflow-hidden rounded-2xl border border-white/10 md:w-80">
             <img
-              src="https://d64gsuwffb70l.cloudfront.net/690842e612197ded1e25450c_1762149153164_51820147.webp"
+              src={me}
               alt="ALPHATO — About"
               className="h-full w-full object-cover"
             />
