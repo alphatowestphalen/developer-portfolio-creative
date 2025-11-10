@@ -74,19 +74,19 @@ export const Hero: React.FC = () => {
         <div ref={statsRef} className="mt-10 grid grid-cols-3 gap-6">
           <div className="rounded-2xl border border-white/10 p-5 backdrop-blur">
             <p className="text-2xl font-semibold tracking-tight">
-              <span data-count="10">0</span>
+              <span data-count="3">0</span>
             </p>
             <p className="mt-1 text-xs text-neutral-400">{t.hero.yearsExp}</p>
           </div>
           <div className="rounded-2xl border border-white/10 p-5 backdrop-blur">
             <p className="text-2xl font-semibold tracking-tight">
-              <span data-count="285">0</span>+
+              <span data-count="20">0</span>+
             </p>
             <p className="mt-1 text-xs text-neutral-400">{t.hero.projects}</p>
           </div>
           <div className="rounded-2xl border border-white/10 p-5 backdrop-blur">
             <p className="text-2xl font-semibold tracking-tight">
-              <span data-count="190">0</span>+
+              <span data-count="10">0</span>+
             </p>
             <p className="mt-1 text-xs text-neutral-400">{t.hero.clients}</p>
           </div>
