@@ -20,8 +20,8 @@ const AppLayout: React.FC = () => {
         <Navigation />
         <main className="mx-auto max-w-7xl px-6">
           <Hero />
-          <Experience />
           <About />
+          <Experience />
           <Skills />
           <Services />
           <Portfolio />

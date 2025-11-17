@@ -24,7 +24,7 @@ export const Navigation: React.FC = () => {
         </button>
 
         <div className="hidden items-center gap-8 md:flex">
-          {['home', 'about', 'languages', 'services', 'portfolio', 'contact'].map((item) => (
+          {['home', 'experience', 'about', 'languages', 'services', 'portfolio', 'contact'].map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item)}

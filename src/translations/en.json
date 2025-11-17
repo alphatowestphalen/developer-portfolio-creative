@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "experience": "Experience",
     "languages": "Languages",
     "services": "Services",
     "portfolio": "Portfolio",
@@ -22,10 +23,17 @@
   },
   "experience": {
     "title": "My Work Experience",
+    "title_project":"Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
     "selfEmployed": "Self-Employed — Remote",
     "period1": "2018 — Present",
-    "desc1": "Led full-stack builds for startups, delivering design systems and scalable frontends.",
-    "desc2": "Optimized performance to hit 90+ Lighthouse scores across projects.",
+    "descriptions": [
+      {
+        "desc": "Direction de projets full-stack pour startups, livraison de systèmes de design et frontends évolutifs."
+      },
+      {
+        "desc": "Optimisation des performances pour atteindre 90+ scores Lighthouse."
+      }
+    ],
     "productDesigner": "Product Designer → UI Engineer",
     "period2": "2015 — 2018",
     "desc3": "Shipped component libraries used across multiple teams.",
