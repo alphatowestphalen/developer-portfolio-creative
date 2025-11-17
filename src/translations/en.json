@@ -21,22 +21,27 @@
     "certified": "Certified Web Developer",
     "certDesc": "Frontend • Backend • UI Engineering"
   },
-  "experience": {
-    "title": "My Work Experience",
-    "title_project":"Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
-    "selfEmployed": "Self-Employed — Remote",
-    "period1": "2018 — Present",
-    "descriptions": [
-      {
-        "desc": "Direction de projets full-stack pour startups, livraison de systèmes de design et frontends évolutifs."
-      },
-      {
-        "desc": "Optimisation des performances pour atteindre 90+ scores Lighthouse."
-      }
-    ],
-    "productDesigner": "Product Designer → UI Engineer",
-    "period2": "2015 — 2018",
-    "desc3": "Shipped component libraries used across multiple teams.",
-    "desc4": "Partnered with backend to define APIs and reduce payloads."
-  }
+  "experience": [
+    {
+      "title": "Mon expérience professionnelle",
+      "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
+      "selfEmployed": "Consultante en développement d’application (Orange Madagascar) — Temps plein",
+      "period1": "Février 2025 — Présent",
+      "descriptions": [
+        {
+          "desc": "Développer des solutions d’automatisation pour le recyclage des numéros, en intégrant les systèmes existants"
+        },
+        {
+          "desc": "Mettre en place des contrôles assurant la cohérence entre le statut des numéros dans les différentes plateformes."
+        },
+        {
+          "desc": "Éliminer la nécessité des traitements en urgence en automatisant complètement le processus."
+        }
+      ],
+      "productDesigner": "Product Designer → Ingénieur UI",
+      "period2": "2015 — 2018",
+      "desc3": "Livraison de bibliothèques de composants utilisées par plusieurs équipes.",
+      "desc4": "Partenariat avec le backend pour définir les APIs et réduire les payloads."
+    }
+  ]
 }
