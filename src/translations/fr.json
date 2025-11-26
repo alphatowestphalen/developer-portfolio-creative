@@ -10,7 +10,7 @@
   },
   "hero": {
     "availability": "Disponible en freelance et temps plein",
-    "greeting": "Bonjour, je suis",
+    "greeting": "Bonjour, c' est",
     "name": "Weal",
     "description": "Je conçois et développe des expériences web rapides et accessibles. De l'idée à la production, je livre un code propre et un design réfléchi qui évolue.",
     "viewWork": "Voir mes projets",
@@ -22,6 +22,28 @@
     "certDesc": "Frontend • Backend • Ingénierie UI"
   },
   "experience": [
+    {
+      "title": "Mon expérience professionnelle",
+      "description":"Développeur Full-Stack passionné, spécialisé en Angular et Java. J’ai travaillé sur des applications web et mobiles, en intégrant des APIs sécurisées et en optimisant la performance des modules.",
+      "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
+      "selfEmployed": "Consultante en développement d’application (Orange Madagascar) — Temps plein",
+      "period1": "Février 2025 — Présent",
+      "descriptions": [
+        {
+          "desc": "Développer des solutions d’automatisation pour le recyclage des numéros, en intégrant les systèmes existants"
+        },
+        {
+          "desc": "Mettre en place des contrôles assurant la cohérence entre le statut des numéros dans les différentes plateformes."
+        },
+        {
+          "desc": "Éliminer la nécessité des traitements en urgence en automatisant complètement le processus."
+        }
+      ],
+      "productDesigner": "Product Designer → Ingénieur UI",
+      "period2": "2015 — 2018",
+      "desc3": "Livraison de bibliothèques de composants utilisées par plusieurs équipes.",
+      "desc4": "Partenariat avec le backend pour définir les APIs et réduire les payloads."
+    },
     {
       "title": "Mon expérience professionnelle",
       "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",

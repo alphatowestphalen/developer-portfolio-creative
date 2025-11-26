@@ -17,11 +17,11 @@ export const Portfolio: React.FC = () => {
   return (
     <section id="portfolio" className="mt-24 md:mt-32">
       <div className="flex items-end justify-between">
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">{labels[language].title}</h2>
+        <h2 className="text-3xl font-grifter md:text-5xl font-semibold tracking-wider leading-tight bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">{labels[language].title}</h2>
         {!showAll && portfolioData.length > initialCount && (
           <button
             onClick={() => setShowAll(true)}
-            className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-neutral-100 transition hover:border-white/20 hover:bg-white/10"
+            className="inline-flex items-center gap-2 border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-neutral-100 transition hover:border-white/20 hover:bg-white/10"
           >
             <Rows className="h-4 w-4" />
             {labels[language].exploreMore}
@@ -36,7 +36,7 @@ export const Portfolio: React.FC = () => {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="group rounded-3xl border border-white/10 overflow-hidden bg-white/5 hover:border-white/20 transition opacity-0 translate-y-6 animate-fade-in"
+            className="group  border border-white/10 overflow-hidden bg-white/5 hover:border-white/20 transition opacity-0 translate-y-6 animate-fade-in"
             style={{ animationDelay: `${idx * 50}ms` }}
           >
             <div className="relative aspect-[16/10]">
@@ -47,7 +47,7 @@ export const Portfolio: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/60 via-transparent" />
               <div className="absolute bottom-3 left-3">
-                <span className="rounded-full bg-emerald-400/20 px-2 py-1 text-[10px] font-medium text-emerald-200 ring-1 ring-emerald-400/30">
+                <span className=" bg-emerald-400/20 px-2 py-1 text-[10px] font-medium text-emerald-200 ring-1 ring-emerald-400/30">
                   {project.tech}
                 </span>
               </div>

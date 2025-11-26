@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
     <section id="contact" className="mt-24 md:mt-32">
       <div className="grid gap-10 md:grid-cols-2">
         <div>
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">{data.title}</h2>
+          <h2 className="md:text-4xl font-semibold tracking-tight font-grifter leading-tight bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">{data.title}</h2>
           <h4 className="mt-2 text-base md:text-lg text-neutral-300">{data.subtitle}</h4>
           <p className="mt-4 max-w-md text-neutral-300">{data.description}</p>
 
@@ -93,7 +93,7 @@ export const Contact: React.FC = () => {
 
         <form
           onSubmit={handleSubmit}
-          className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur opacity-0 translate-y-6 animate-fade-in"
+          className="border border-white/10 bg-white/5 p-6 backdrop-blur opacity-0 translate-y-6 animate-fade-in"
         >
           <div className="grid gap-4 md:grid-cols-2">
             <div>
@@ -104,7 +104,7 @@ export const Contact: React.FC = () => {
                 required
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-neutral-500 focus:border-white/20"
+                className="mt-1 w-full  border border-white/10 bg-neutral-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-neutral-500 focus:border-white/20"
               />
             </div>
             <div>
@@ -115,7 +115,7 @@ export const Contact: React.FC = () => {
                 required
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-neutral-500 focus:border-white/20"
+                className="mt-1 w-full  border border-white/10 bg-neutral-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-neutral-500 focus:border-white/20"
               />
             </div>
             <div className="md:col-span-2">
@@ -126,7 +126,7 @@ export const Contact: React.FC = () => {
                 required
                 value={formData.subject}
                 onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-neutral-500 focus:border-white/20"
+                className="mt-1 w-full  border border-white/10 bg-neutral-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-neutral-500 focus:border-white/20"
               />
             </div>
             <div className="md:col-span-2">
@@ -137,13 +137,13 @@ export const Contact: React.FC = () => {
                 required
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                className="mt-1 w-full rounded-xl border border-white/10 bg-neutral-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-neutral-500 focus:border-white/20"
+                className="mt-1 w-full  border border-white/10 bg-neutral-900 px-3 py-2 text-sm outline-none ring-0 placeholder:text-neutral-500 focus:border-white/20"
               />
             </div>
           </div>
           <button
             type="submit"
-            className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-medium text-neutral-900 transition hover:bg-neutral-100"
+            className="mt-4 inline-flex w-full items-center justify-center gap-2  bg-white px-4 py-2 text-sm font-medium text-neutral-900 transition hover:bg-neutral-100"
           >
             <Send className="h-4 w-4" />
             {data.form.submit}
@@ -154,7 +154,7 @@ export const Contact: React.FC = () => {
       <div className="mt-10 flex justify-end">
         <button
           onClick={scrollToTop}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-neutral-200 hover:bg-white/10"
+          className="inline-flex h-10 w-10 items-center justify-center border border-white/10 bg-white/5 text-neutral-200 hover:bg-white/10"
         >
           <ArrowUp className="h-5 w-5" />
         </button>

@@ -10,14 +10,14 @@ export const Testimonials: React.FC = () => {
   return (
     <section id="testimonials" className="mt-24 md:mt-32">
       <div className="opacity-0 translate-y-6 animate-fade-in">
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">{data.title}</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight font-grifter leading-tight bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">{data.title}</h2>
         <p className="mt-2 text-base md:text-lg text-neutral-300">{data.subtitle}</p>
       </div>
       <div className="mt-8 grid gap-6 md:grid-cols-3">
         {data.testimonials.map((testimonial, idx) => (
           <div
             key={idx}
-            className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur opacity-0 translate-y-6 animate-fade-in"
+            className="border border-white/10 bg-white/5 p-6 backdrop-blur opacity-0 translate-y-6 animate-fade-in"
             style={{ animationDelay: `${idx * 100}ms` }}
           >
             <div className="flex items-center gap-3">

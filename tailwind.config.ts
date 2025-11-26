@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 import animate from "tailwindcss-animate";
 import typography from "@tailwindcss/typography";
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 export default {
   darkMode: ["class"],
@@ -66,8 +67,9 @@ export default {
         }
       },
       fontFamily: {
-        mono: ['JetBrains Mono', 'monospace'],
-        sans: ['Inter', 'sans-serif'],
+        sans: ["Grifter", "Inter", ...defaultTheme.fontFamily.sans],
+        // mono: ['JetBrains Mono', 'monospace'],
+        // sans: ['Inter', 'sans-serif'],
       },
       borderRadius: {
         lg: 'calc(var(--radius) + 2px)',

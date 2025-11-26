@@ -46,9 +46,9 @@ export const Hero: React.FC = () => {
     <section id="home" className="relative grid gap-10 pt-16 md:grid-cols-2 md:gap-6 md:pt-24">
       <div className="flex flex-col justify-center">
         <p className="mb-4 text-sm font-medium text-emerald-300/90">{t.hero.availability}</p>
-        <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-tight">
+        <h1 className="text-4xl font-grifter md:text-6xl font-semibold tracking-tight leading-tight">
           {t.hero.greeting}{' '}
-          <span className="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r tracking-wide from-emerald-400 to-teal-300 bg-clip-text text-transparent">
             {t.hero.name}
           </span>
         </h1>
@@ -57,14 +57,14 @@ export const Hero: React.FC = () => {
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <button
             onClick={() => scrollTo('portfolio')}
-            className="inline-flex items-center gap-2 rounded-lg border border-white/10 px-4 py-2 text-sm font-medium hover:border-white/30 transition"
+            className="inline-flex items-center gap-2 border border-white/10 px-4 py-2 text-sm font-medium hover:border-white/30 transition"
           >
             <PlayCircle className="h-4 w-4 text-emerald-300" />
             {t.hero.viewWork}
           </button>
           <button
             onClick={() => scrollTo('contact')}
-            className="inline-flex items-center gap-2 rounded-lg bg-emerald-400/90 px-4 py-2 text-sm font-medium text-neutral-900 transition hover:bg-emerald-300"
+            className="inline-flex items-center  gap-2 bg-emerald-400/90 px-4 py-2 text-sm font-medium text-neutral-900 transition hover:bg-emerald-300"
           >
             <Send className="h-4 w-4" />
             {t.hero.startProject}
@@ -72,23 +72,23 @@ export const Hero: React.FC = () => {
         </div>
 
         <div ref={statsRef} className="mt-10 grid grid-cols-3 gap-6">
-          <div className="rounded-2xl border border-white/10 p-5 backdrop-blur">
-            <p className="text-2xl font-semibold tracking-tight">
+          <div className="border border-white/10 p-5 backdrop-blur">
+            <p className="text-2xl font-grifter font-semibold tracking-tight">
               <span data-count="3">0</span>
             </p>
-            <p className="mt-1 text-xs text-neutral-400">{t.hero.yearsExp}</p>
+            <p className="mt-1 text-xs text-neutral-400 font-grifter tracking-wider">{t.hero.yearsExp}</p>
           </div>
-          <div className="rounded-2xl border border-white/10 p-5 backdrop-blur">
-            <p className="text-2xl font-semibold tracking-tight">
+          <div className="border border-white/10 p-5 font-grifter tracking-wider  backdrop-blur ">
+            <p className="text-2xl font-grifter font-semibold tracking-tight">
               <span data-count="20">0</span>+
             </p>
             <p className="mt-1 text-xs text-neutral-400">{t.hero.projects}</p>
           </div>
-          <div className="rounded-2xl border border-white/10 p-5 backdrop-blur">
-            <p className="text-2xl font-semibold tracking-tight">
+          <div className="border border-white/10 p-5 backdrop-blur">
+            <p className="text-2xl font-grifter font-bold tracking-tight">
               <span data-count="10">0</span>+
             </p>
-            <p className="mt-1 text-xs text-neutral-400">{t.hero.clients}</p>
+            <p className="mt-1 text-xs text-neutral-400 font-grifter tracking-wider">{t.hero.clients}</p>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@ export const Hero: React.FC = () => {
             </g>
           </svg>
         </div>
-        <div className="relative mx-auto aspect-square w-80 overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-emerald-500/10 md:w-96">
+        <div className="relative mx-auto aspect-square w-80 overflow-hidden border border-white/10 shadow-2xl shadow-emerald-500/10 md:w-96">
           <img
             src={me}
             alt="Portrait"
@@ -112,7 +112,7 @@ export const Hero: React.FC = () => {
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-neutral-950/30 via-transparent" />
         </div>
         <div className="mt-6 flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-400/10 ring-1 ring-emerald-400/30">
+          <div className="flex h-10 w-10 items-center justify-center bg-emerald-400/10 ring-1 ring-emerald-400/30">
             <BadgeCheck className="h-5 w-5 text-emerald-300" />
           </div>
           <div>

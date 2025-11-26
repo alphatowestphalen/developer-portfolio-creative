@@ -23,7 +23,30 @@
   },
   "experience": [
     {
-      "title": "Mon expérience professionnelle",
+      "title": "My professional experience",
+      "description":"Passionate Full-Stack Developer specialized in Angular and Java. I have worked on web and mobile applications, integrating secure APIs and optimizing module performance.",
+      "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
+      "selfEmployed": "Consultante en développement d’application (Orange Madagascar) — Temps plein",
+      "period1": "Février 2025 — Présent",
+      "descriptions": [
+        {
+          "desc": "Développer des solutions d’automatisation pour le recyclage des numéros, en intégrant les systèmes existants"
+        },
+        {
+          "desc": "Mettre en place des contrôles assurant la cohérence entre le statut des numéros dans les différentes plateformes."
+        },
+        {
+          "desc": "Éliminer la nécessité des traitements en urgence en automatisant complètement le processus."
+        }
+      ],
+      "productDesigner": "Product Designer → Ingénieur UI",
+      "period2": "2015 — 2018",
+      "desc3": "Livraison de bibliothèques de composants utilisées par plusieurs équipes.",
+      "desc4": "Partenariat avec le backend pour définir les APIs et réduire les payloads."
+    },
+    {
+      "title": "My professional experience",
+      "description":"Passionate Full-Stack Developer specialized in Angular and Java. I have worked on web and mobile applications, integrating secure APIs and optimizing module performance.",
       "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
       "selfEmployed": "Consultante en développement d’application (Orange Madagascar) — Temps plein",
       "period1": "Février 2025 — Présent",
