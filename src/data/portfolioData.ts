@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     title: { en: "Mobile App — Culinary Management", fr: "Application Mobile — Gestion Culinaire" },
     description: { en: "Design, integration, and development.", fr: "Design, intégration et développement." },
-    tech: "Angular • Ionic • Firebase",
+    tech: "Angular • Ionic • Spring Boot",
     image: "https://d64gsuwffb70l.cloudfront.net/690842e612197ded1e25450c_1762149155101_7fc215a9.webp",
     link: "https://github.com/alphatowestphalen/MERN"
   },
