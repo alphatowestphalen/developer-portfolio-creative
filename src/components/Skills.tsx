@@ -25,11 +25,11 @@ export const Skills: React.FC = () => {
 
   return (
     <section id="languages" className="relative mt-24 md:mt-32">
-      <div className="opacity-0 translate-y-6 animate-fade-in">
-        <h2 className="text-3xl font-grifter md:text-5xl font-semibold tracking-wider leading-tight bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">
+      <div className="opacity-0 translate-y-6 pb-4 animate-fade-in">
+        <h2 className="text-3xl pb-3 font-grifter md:text-5xl font-semibold tracking-wider leading-tight bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">
           {data.title}
         </h2>
-        <h4 className="mt-2 text-base md:text-lg text-neutral-300">
+        <h4 className=" text-base md:text-lg text-neutral-300">
           {data.subtitle}
         </h4>
       </div>
