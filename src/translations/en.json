@@ -52,13 +52,22 @@
       "period1": "Février 2025 — Présent",
       "descriptions": [
         {
-          "desc": "Développer des solutions d’automatisation pour le recyclage des numéros, en intégrant les systèmes existants"
+          "desc": "Analyse de l’API actuelle (modèles, routes, payloads)"
         },
         {
-          "desc": "Mettre en place des contrôles assurant la cohérence entre le statut des numéros dans les différentes plateformes."
+          "desc": "Mise en conformité avec les APIs TMF (ex. TMF620, TMF622 selon le contexte)"
         },
         {
-          "desc": "Éliminer la nécessité des traitements en urgence en automatisant complètement le processus."
+          "desc": "Correction et refactoring du code afin d’assurer une compatibilité totale"
+        },
+        {
+          "desc": "Mise en place ou amélioration des tests unitaires pour garantir la qualité fonctionnelle"
+        },
+        {
+          "desc": "Vérification de la rétrocompatibilité et documentation technique"
+        },
+        {
+          "desc": "L’objectif final est de garantir une meilleure interopérabilité, maintenabilité et standardisation des interfaces exposées par le système"
         }
       ],
       "productDesigner": "Product Designer → Ingénieur UI",

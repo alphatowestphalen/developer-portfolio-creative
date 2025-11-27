@@ -19,7 +19,7 @@ export const aboutData = {
     title: "À propos",
     subtitle: "Je suis prêt à vous accompagner dans vos prochains projets !",
     description: [
-      "Je suis récemment diplômé de l'École Nationale d'Informatique (ENI) avec un diplôme en Génie Informatique, spécialisé en Génie Logiciel et Bases de Données. Tout au long de mon parcours académique, j'ai acquis une solide expérience en développement backend et frontend, travaillant avec des technologies modernes telles qu'Angular, Spring Boot, Quarkus, PostgreSQL et MySQL.",
+      "Je suis récemment diplômé de l'École Nationale d'Informatique (ENI) avec un diplôme d' Ingénieur en Génie Informatique, spécialisé en Génie Logiciel et Bases de Données. Tout au long de mon parcours académique, j'ai acquis une solide expérience en développement backend et frontend, travaillant avec des technologies modernes telles qu'Angular, Spring Boot, Quarkus, PostgreSQL et MySQL.",
       "Ma passion pour le développement logiciel va au-delà de l'écriture de code — je le vois comme une forme d'art où chaque ligne contribue à construire des solutions élégantes et efficaces. J'aime transformer des idées complexes en expériences numériques intuitives tout en suivant les méthodologies Agile et les meilleures pratiques de conception logicielle.",
       "Mon objectif est de grandir en tant que Développeur Full-Stack, en contribuant à des projets innovants qui ont un réel impact, tout en apprenant continuellement et en améliorant mes compétences techniques et créatives."
     ],

@@ -18,13 +18,13 @@
     "yearsExp": "Années d'expérience",
     "projects": "Projets",
     "clients": "Clients satisfaits",
-    "certified": "Développeur Web Certifié",
+    "certified": "Ingénieur Logiciel & Base de données",
     "certDesc": "Frontend • Backend • Ingénierie UI"
   },
   "experience": [
     {
       "title": "Mon expérience professionnelle",
-      "description":"Développeur Full-Stack passionné, spécialisé en Angular et Java. J’ai travaillé sur des applications web et mobiles, en intégrant des APIs sécurisées et en optimisant la performance des modules.",
+      "description": "Développeur Full-Stack passionné, spécialisé en Angular et Java. J’ai travaillé sur des applications web et mobiles, en intégrant des APIs sécurisées et en optimisant la performance des modules.",
       "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
       "selfEmployed": "Consultante en développement d’application (Orange Madagascar) — Temps plein",
       "period1": "Février 2025 — Présent",
@@ -46,18 +46,87 @@
     },
     {
       "title": "Mon expérience professionnelle",
-      "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
+      "description": "Développeur Full-Stack passionné, spécialisé en Angular et Java. J’ai travaillé sur des applications web et mobiles, en intégrant des APIs sécurisées et en optimisant la performance des modules.",
+      "title_project": "Convertirez l'API déjà existante pour suivre la norme TMF et ajouter un test unitaire",
       "selfEmployed": "Consultante en développement d’application (Orange Madagascar) — Temps plein",
       "period1": "Février 2025 — Présent",
       "descriptions": [
         {
-          "desc": "Développer des solutions d’automatisation pour le recyclage des numéros, en intégrant les systèmes existants"
+          "desc": "Analyse de l’API actuelle (modèles, routes, payloads)"
         },
         {
-          "desc": "Mettre en place des contrôles assurant la cohérence entre le statut des numéros dans les différentes plateformes."
+          "desc": "Mise en conformité avec les APIs TMF (ex. TMF620, TMF622 selon le contexte)"
         },
         {
-          "desc": "Éliminer la nécessité des traitements en urgence en automatisant complètement le processus."
+          "desc": "Correction et refactoring du code afin d’assurer une compatibilité totale"
+        },
+        {
+          "desc": "Mise en place ou amélioration des tests unitaires pour garantir la qualité fonctionnelle"
+        },
+        {
+          "desc": "Vérification de la rétrocompatibilité et documentation technique"
+        },
+        {
+          "desc": "L’objectif final est de garantir une meilleure interopérabilité, maintenabilité et standardisation des interfaces exposées par le système"
+        }
+      ],
+      "productDesigner": "Product Designer → Ingénieur UI",
+      "period2": "2015 — 2018",
+      "desc3": "Livraison de bibliothèques de composants utilisées par plusieurs équipes.",
+      "desc4": "Partenariat avec le backend pour définir les APIs et réduire les payloads."
+    },
+    {
+      "title": "Mon expérience professionnelle",
+      "description": "Développeur Full-Stack passionné, spécialisé en Angular et Java. J’ai travaillé sur des applications web et mobiles, en intégrant des APIs sécurisées et en optimisant la performance des modules.",
+      "title_project": "MGO – Plateforme digitale pour la gestion des activités de transport",
+      "selfEmployed": "Développeur Full Stack Java / Angular - RELIA Consulting",
+      "period1": "Avril 2024 — Octobre 2024",
+      "descriptions": [
+        {
+          "desc": "Conception et modélisation de bases de données adaptées aux divers besoins fonctionnels"
+        },
+        {
+          "desc": "Développement des fonctionnalités backend et frontend pour une expérience utilisateur optimale."
+        },
+        {
+          "desc": "Création et mise en oeuvre d'API RESTful pour des services performants et sécurisés."
+        },
+        {
+          "desc": "Conception et exécution de tests pour garantir la qualité, la fiabilité et la robustesse du produit."
+        },
+        {
+          "desc": "Collaboration active avec les clients pour analyser leurs besoins et proposer des solutions personnalisées."
+        },
+        {
+          "desc": "Travail dans un cadre Agile, favorisant la collaboration avec des équipes pluridisciplinaires."
+        }
+      ],
+      "productDesigner": "Product Designer → Ingénieur UI",
+      "period2": "2015 — 2018",
+      "desc3": "Livraison de bibliothèques de composants utilisées par plusieurs équipes.",
+      "desc4": "Partenariat avec le backend pour définir les APIs et réduire les payloads."
+    },
+    {
+      "title": "Mon expérience professionnelle",
+      "description": "Développeur Full-Stack passionné, spécialisé en Angular et Java. J’ai travaillé sur des applications web et mobiles, en intégrant des APIs sécurisées et en optimisant la performance des modules.",
+      "title_project": "Création d'une application mobile pour la gestion culinaire, avec un focus particulier sur la gestion du ‘LOKA’.",
+      "selfEmployed": "Développeur Full Stack Java / Angular - RELIA Consulting",
+      "period1": "Janvier 2025 — Présent",
+      "descriptions": [
+        {
+          "desc": "Développer des interfaces utilisateur dynamiques et réactives en utilisant Angular ionic."
+        },
+        {
+          "desc": "Élaboration de prototypes pour visualiser les interfaces utilisateur avant le développement."
+        },
+        {
+          "desc": "Optimiser les performances et l’accessibilité des interfaces utilisateur."
+        },
+        {
+          "desc": "Identifier et corriger les bugs rapidement."
+        },
+        {
+          "desc": "Assurer l’intégration efficace entre les interfaces utilisateur et les API."
         }
       ],
       "productDesigner": "Product Designer → Ingénieur UI",
