@@ -2,78 +2,137 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "experience": "Experience",
     "languages": "Languages",
+    "experience": "Experience",
     "services": "Services",
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
   "hero": {
-    "availability": "Available for freelance and full-time",
-    "greeting": "Hey there, I'm",
+    "availability": "Available for freelance and full-time work",
+    "greeting": "Hello, I'm",
     "name": "Weal",
-    "description": "I design and build fast, accessible web experiences. From idea to production, I deliver clean code and thoughtful design that scales.",
-    "viewWork": "View Work",
+    "description": "I design and build fast, accessible web experiences. From idea to production, I deliver clean code and thoughtful design that evolves over time.",
+    "viewWork": "View my work",
     "startProject": "Start a project",
-    "yearsExp": "Years Experience",
+    "yearsExp": "Years of experience",
     "projects": "Projects",
-    "clients": "Happy Clients",
-    "certified": "Certified Web Developer",
+    "clients": "Satisfied clients",
+    "certified": "Software & Database Engineer",
     "certDesc": "Frontend • Backend • UI Engineering"
   },
   "experience": [
     {
-      "title": "My professional experience",
-      "description":"Passionate Full-Stack Developer specialized in Angular and Java. I have worked on web and mobile applications, integrating secure APIs and optimizing module performance.",
-      "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
-      "selfEmployed": "Consultante en développement d’application (Orange Madagascar) — Temps plein",
-      "period1": "Février 2025 — Présent",
+      "title": "My Professional Experience",
+      "description": "Passionate Full-Stack Developer specialized in Angular and Java. I have worked on web and mobile applications, integrating secure APIs and optimizing module performance.",
+      "title_project": "Automation of the number recycling process to eliminate manual errors and reduce technical costs.",
+      "selfEmployed": "Application Development Consultant (Orange Madagascar) — Full-time",
+      "period1": "February 2025 — Present",
       "descriptions": [
         {
-          "desc": "Développer des solutions d’automatisation pour le recyclage des numéros, en intégrant les systèmes existants"
+          "desc": "Develop automation solutions for number recycling by integrating existing systems"
         },
         {
-          "desc": "Mettre en place des contrôles assurant la cohérence entre le statut des numéros dans les différentes plateformes."
+          "desc": "Implement controls to ensure consistency of number status across different platforms."
         },
         {
-          "desc": "Éliminer la nécessité des traitements en urgence en automatisant complètement le processus."
+          "desc": "Eliminate the need for emergency processing by fully automating the workflow."
         }
       ],
-      "productDesigner": "Product Designer → Ingénieur UI",
+      "productDesigner": "Product Designer → UI Engineer",
       "period2": "2015 — 2018",
-      "desc3": "Livraison de bibliothèques de composants utilisées par plusieurs équipes.",
-      "desc4": "Partenariat avec le backend pour définir les APIs et réduire les payloads."
+      "desc3": "Delivered component libraries used by multiple teams.",
+      "desc4": "Collaborated with the backend team to define APIs and reduce payload sizes."
     },
     {
-      "title": "My professional experience",
-      "description":"Passionate Full-Stack Developer specialized in Angular and Java. I have worked on web and mobile applications, integrating secure APIs and optimizing module performance.",
-      "title_project": "Automatisation du processus de recyclage des numéros pour éviter les erreurs manuelles, réduire les coûts techniques.",
-      "selfEmployed": "Consultante en développement d’application (Orange Madagascar) — Temps plein",
-      "period1": "Février 2025 — Présent",
+      "title": "My Professional Experience",
+      "description": "Passionate Full-Stack Developer specialized in Angular and Java. I have worked on web and mobile applications, integrating secure APIs and optimizing module performance.",
+      "title_project": "Convert an existing API to comply with TMF standards and add unit testing",
+      "selfEmployed": "Application Development Consultant (Orange Madagascar) — Full-time",
+      "period1": "February 2025 — Present",
       "descriptions": [
         {
-          "desc": "Analyse de l’API actuelle (modèles, routes, payloads)"
+          "desc": "Analysis of the current API (models, routes, payloads)"
         },
         {
-          "desc": "Mise en conformité avec les APIs TMF (ex. TMF620, TMF622 selon le contexte)"
+          "desc": "Alignment with TMF APIs (e.g., TMF620, TMF622 depending on context)"
         },
         {
-          "desc": "Correction et refactoring du code afin d’assurer une compatibilité totale"
+          "desc": "Code correction and refactoring to ensure full compatibility"
         },
         {
-          "desc": "Mise en place ou amélioration des tests unitaires pour garantir la qualité fonctionnelle"
+          "desc": "Implementation or improvement of unit tests to ensure functional quality"
         },
         {
-          "desc": "Vérification de la rétrocompatibilité et documentation technique"
+          "desc": "Verification of backward compatibility and technical documentation"
         },
         {
-          "desc": "L’objectif final est de garantir une meilleure interopérabilité, maintenabilité et standardisation des interfaces exposées par le système"
+          "desc": "The goal is to ensure better interoperability, maintainability, and standardization of the system’s exposed interfaces"
         }
       ],
-      "productDesigner": "Product Designer → Ingénieur UI",
+      "productDesigner": "Product Designer → UI Engineer",
       "period2": "2015 — 2018",
-      "desc3": "Livraison de bibliothèques de composants utilisées par plusieurs équipes.",
-      "desc4": "Partenariat avec le backend pour définir les APIs et réduire les payloads."
+      "desc3": "Delivered component libraries used by multiple teams.",
+      "desc4": "Collaborated with the backend team to define APIs and reduce payload sizes."
+    },
+    {
+      "title": "My Professional Experience",
+      "description": "Passionate Full-Stack Developer specialized in Angular and Java. I have worked on web and mobile applications, integrating secure APIs and optimizing module performance.",
+      "title_project": "MGO – Digital platform for managing transportation activities",
+      "selfEmployed": "Full Stack Java / Angular Developer – RELIA Consulting",
+      "period1": "April 2024 — October 2024",
+      "descriptions": [
+        {
+          "desc": "Design and modeling of databases tailored to various functional needs"
+        },
+        {
+          "desc": "Frontend and backend development to deliver an optimal user experience."
+        },
+        {
+          "desc": "Creation and implementation of RESTful APIs for secure and high-performance services."
+        },
+        {
+          "desc": "Design and execution of tests to ensure product quality, reliability, and robustness."
+        },
+        {
+          "desc": "Active collaboration with clients to analyze needs and propose tailored solutions."
+        },
+        {
+          "desc": "Work within an Agile environment, promoting collaboration with multidisciplinary teams."
+        }
+      ],
+      "productDesigner": "Product Designer → UI Engineer",
+      "period2": "2015 — 2018",
+      "desc3": "Delivered component libraries used by multiple teams.",
+      "desc4": "Collaborated with the backend team to define APIs and reduce payload sizes."
+    },
+    {
+      "title": "My Professional Experience",
+      "description": "Passionate Full-Stack Developer specialized in Angular and Java. I have worked on web and mobile applications, integrating secure APIs and optimizing module performance.",
+      "title_project": "Creation of a mobile application for culinary management, with a focus on managing ‘LOKA’.",
+      "selfEmployed": "Full Stack Java / Angular Developer – RELIA Consulting",
+      "period1": "January 2025 — Present",
+      "descriptions": [
+        {
+          "desc": "Develop dynamic and responsive user interfaces using Angular and Ionic."
+        },
+        {
+          "desc": "Build prototypes to visualize user interfaces before development."
+        },
+        {
+          "desc": "Optimize UI performance and accessibility."
+        },
+        {
+          "desc": "Identify and fix bugs quickly."
+        },
+        {
+          "desc": "Ensure efficient integration between the UI and APIs."
+        }
+      ],
+      "productDesigner": "Product Designer → UI Engineer",
+      "period2": "2015 — 2018",
+      "desc3": "Delivered component libraries used by multiple teams.",
+      "desc4": "Collaborated with the backend team to define APIs and reduce payload sizes."
     }
   ]
 }
